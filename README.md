@@ -71,11 +71,14 @@ Variables are declared using the keywords var, let, const. They can have a value
 
 
 - [x] 6. How do you use the following conditionals?
-  >  1. if // if (expression to evaluate to true){ code to execute if the condition is true}
+  1. if 
+  > // if (expression to evaluate to true){ code to execute if the condition is true}
 
-   > 2. if else // if (condition to evaluate to true){block to return if it is}else{if condition did not turn to be true this block is exectued}
+   2.
+   > if else // if (condition to evaluate to true){block to return if it is}else{if condition did not turn to be true this block is exectued}
     
-   > 3. else // can be used for specifying an additional condition if the first is false 
+   3. 
+   > else // can be used for specifying an additional condition if the first is false 
 
 
 - [ ] 7. How do you use a for loop?
@@ -86,18 +89,25 @@ Variables are declared using the keywords var, let, const. They can have a value
 ~~~~
 
 - [ ] 8. What is an array?
+    > Use arrays when you want the element names to be numbers.
 
-> * Use arrays when you want the element names to be numbers
-    - [ ]1. How do you put values into arrays?
-        - [ ] * set it a variable to it and add data in as strings or numbers surronded by brackets
-        - [ ] * set an array and an index to be replaced with a new value 
+- [ ] 9. How do you put values into arrays?
+    > set it a variable to it and add data in as strings or numbers surronded by brackets
+    
+    > set an array and an index to be replaced with a new value 
+    ~~~
             var cars=['toyota'];
             cars[0] = 'bmw'
             console.log(cars) //bmw
-        - [ ] * can use push method to put items into array //car.push('ford')
+    ~~~
+    
 
+    > can use push method to put items into array 
+    ~~~
+    car.push('ford')
+    ~~~
 
-    - [ ]2. How to you get values out of arrays?
+- [ ] 10. How to you get values out of arrays?
         - [ ] * Use bracket notation, Arrays start with a 0 index. refer to the array's name and pair it with the index you want to get, or all data by denoting the var name
 
     - [ ]3. How do you remove a value from an array?
