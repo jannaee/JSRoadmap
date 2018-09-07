@@ -1,14 +1,14 @@
 #JS ROADMAP Outline was created by Zell Liew (https://zellwk.com/). I created an answer set below to test my JavaScript knowledge. 
 
 ## Phase 1
----
+
 ### Phase one objectives to master
 
-#### 1. Learn how to declare variables.
+#### 1. How do you declare variables?
 Variables are declared using the keywords var, let, const. They can have a value set to them or not.
 
 
-#### 2. Learn what are Strings, Numbers, Booleans, Null and Undefined.
+#### 2. What are Strings, Numbers, Booleans, Null and Undefined?
     Strings - used to store a series of characters can me any characted inside a single or double quote
 
     Numbers - intergers that can be written with or without decimals
@@ -21,12 +21,14 @@ Variables are declared using the keywords var, let, const. They can have a value
     Undefined - a variable without a value, the typeof is undefined 
         extra: any value can be emptied by setting the value to undefined
 
-#### 3. Learn what are Arrays, Objects and Functions.
-    Arrays - an object used to store multiple values, and uses numbers to access it's elements
-        extra: 
-            How to create an array - var array_cars = ['saab', 'ford', ...]
-            How to access an array - var name = cars [0] (using indexing)
+#### 3. What are Arrays, Objects and Functions?
+>    Arrays - an object used to store multiple values, and uses numbers to access it's elements
+~~~
+Example:
+    How to create an array - var array_cars = ['saab', 'ford', ...]
+    How to access an array - var name = cars [0] (using indexing)
 
+~~~
     Objects - is a construct that stores multiple values in a key/value pairing. it uses names to access it's members
 
 #### 4. Learn to use if and else statements.
@@ -38,7 +40,7 @@ Variables are declared using the keywords var, let, const. They can have a value
 #### 6. Learn to use the for loop.
     - [ ] *
 
-## Phase one testing
+### Phase one testing
 
 - [ ] 1. What are the five primitive values in JavaScript? 
     * Primitives are values with no properties
@@ -74,52 +76,52 @@ Variables are declared using the keywords var, let, const. They can have a value
 
 - [x] 6. How do you use the following conditionals?
   1. if 
-  > // if (expression to evaluate to true){ code to execute if the condition is true}
-
-   2.
-   > if else // if (condition to evaluate to true){block to return if it is}else{if condition did not turn to be true this block is exectued}
+  > if (expression to evaluate to true){ code to execute if the condition is true}
+  
+  2. if else
+  > if (condition to evaluate to true){block to return if it is}else{if condition did not turn to be true this block is exectued}
     
-   3. 
-   > else // can be used for specifying an additional condition if the first is false 
-
-
+   3. else
+   > can be used for specifying an additional condition if the first is false 
+   
 - [ ] 7. How do you use a for loop?
-~~~
+    ~~~
     for (let i = 0; i<4; i++){
         block of data to be looped through
     }
-~~~~
+    ~~~~
 
 - [ ] 8. What is an array?
-    > Use arrays when you want the element names to be numbers.
+    > Arrays is a type of object that stores a list of data in bracket notation. It's best to chose this data type with you want the element names to be numbers.
 
 - [ ] 9. How do you put values into arrays?
-    > set it a variable to it and add data in as strings or numbers surronded by brackets
+    > Set it to a variable and add data in as strings or numbers surronded by brackets
     
-    > set an array and an index to be replaced with a new value 
+    > You can add data into an array by identifiying the index to be replaced and setting it to a new value like below:
     ~~~
-            var cars=['toyota'];
-            cars[0] = 'bmw'
-            console.log(cars) //bmw
+    var cars=['toyota'];
+    cars[0] = 'bmw'
+    console.log(cars) //bmw
     ~~~
 
-
-    > can use push method to put items into array 
+    > You can also use the push method to put items into array:
     ~~~
     car.push('ford')
     ~~~
 
 - [ ] 10. How to you get values out of arrays?
-        - [ ] * Use bracket notation, Arrays start with a 0 index. refer to the array's name and pair it with the index you want to get, or all data by denoting the var name
+        
+        Use bracket notation, Arrays start with a 0 index. refer to the array's name and pair it with the index you want to get, or all data by denoting the var name
 
-    - [ ]3. How do you remove a value from an array?
-        - [ ] * pop or shift removes the laster and first elements of an array respectively
+- [ ]11. How do you remove a value from an array?
+       > * pop or shift removes the laster and first elements of an array respectively
+        ~~~
         var fruits = ['orange','kiwi', 'strawberry']
+        ~~~
 
-        - [ ] * also using 
-
-   - [ ] 4. How do you loop through every value of an array?
-        - [ ] * The best way is to use a for loop
+- [ ] 12. How do you loop through every value of an array?
+    > The best way is to use a for loop:
+    ~~~
         Example: 
             var fruits, fruitsLength, i;
             fruits=['apple', 'starfruit', 'orange'];
@@ -127,17 +129,20 @@ Variables are declared using the keywords var, let, const. They can have a value
             for (i=0; i<fruitsLength; i++){
                 console.log( fruits[i])
             }
+    ~~~
 
-
-- [ ] 9. What is an object?
+- [ ] 13. What is an object?
 > Definition: Use objects when you want elements names to be strings
-    - [ ] 1. How do you put values into objects?
-    - [ ] 2. How do you get values out from objects?
-    - [ ] 3. How do you remove a property from an object?
-    - [ ] 4. How do you loop through every value of an object?
-    - [ ] 5. What is a method on an object?
-    - [ ] 6. How do you de􀀍ne methods?
-    - [ ] 7. How do you call/invoke a method?
+
+* 1. How do you put values into objects?
+~~~
+~~~
+* 2. How do you get values out from objects?
+* 3. How do you remove a property from an object?
+* 4. How do you loop through every value of an object?
+* 5. What is a method on an object?
+* 6. How do you de􀀍ne methods?
+* 7. How do you call/invoke a method?
 
 
 - [ ] 10. What is a function?
@@ -147,7 +152,7 @@ Variables are declared using the keywords var, let, const. They can have a value
     - [ ] 4. What does the return keyword do in a function?
 
 # Phase 2
----
+
 ### Phase two objective to master
 
 - [ ] 1. What are scopes and closures
