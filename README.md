@@ -1,35 +1,43 @@
 # Phase 1
-- [x] 1. Learn how to declare variables.
-   - [ ] * variables - declared using the keywords var, let, const.
-   - [ ] * They can have a value set to them or not.
+---
+### Objectives to learn
 
-- [ ] 2. Learn what are Strings, Numbers, Booleans, Null and Undefined.
-    - [ ] * Strings - used to store a series of characters can me any characted inside a single or double quote
-    - [ ] * Numbers - intergers that can be written with or without decimals
-    - [ ] * Booleans - a data type that evaluates to either true or false
-    - [ ] * Null - a data type that is nothing but is actually an object, the typeof is object
+#### 1. Learn how to declare variables.
+Variables are declared using the keywords var, let, const. They can have a value set to them or not.
+
+
+#### 2. Learn what are Strings, Numbers, Booleans, Null and Undefined.
+    Strings - used to store a series of characters can me any characted inside a single or double quote
+
+    Numbers - intergers that can be written with or without decimals
+
+    Booleans - a data type that evaluates to either true or false
+    
+    Null - a data type that is nothing but is actually an object, the typeof is object
         extra tip: you can empty and object by setting it to null
-    - [ ] * Undefined - a variable without a value, the typeof is undefined 
+    
+    Undefined - a variable without a value, the typeof is undefined 
         extra: any value can be emptied by setting the value to undefined
 
-- [ ] 3. Learn what are Arrays, Objects and Functions.
-    - [ ] * Arrays - an object used to store multiple values, and uses numbers to access it's elements
+#### 3. Learn what are Arrays, Objects and Functions.
+    Arrays - an object used to store multiple values, and uses numbers to access it's elements
         extra: 
             How to create an array - var array_cars = ['saab', 'ford', ...]
             How to access an array - var name = cars [0] (using indexing)
 
-    - [ ] * Objects - is a construct that stores multiple values in a key/value pairing. it uses names to access it's members
+    Objects - is a construct that stores multiple values in a key/value pairing. it uses names to access it's members
 
-- [ ] 4. Learn to use if and else statements.
+#### 4. Learn to use if and else statements.
     - [ ] *
 
-- [ ] 5. Learn how to compare variables.
+#### 5. Learn how to compare variables.
     - [ ] *
 
-- [ ] 6. Learn to use the for loop.
+#### 6. Learn to use the for loop.
     - [ ] *
 
-Testing
+## Testing
+
 - [ ] 1. What are the five primitive values in JavaScript? 
     - [ ] * Primitives are values with no properties
     - [ ] * Null, Strings, Number, Undefined, Booleans, Symbol (ES6)
@@ -42,23 +50,23 @@ Testing
     - [ ] * var is the original keyword to create variables, but has become outdated since release of ES6, but difficult to manage hoisting during scoping
     - [ ] * let introcudes block scope, where the variable is only accessible within the block of code it was introduced into 
     - [ ] * const it's like let, but you cannot reassign it a value
-        - [ ] * use to minimize mutable state
-            - [ ] * 
+        * use to minimize mutable state
+        * 
 
 - [x] 4. What do each of the following operators do?
-    1. + //add
+    1. + add
     2. - //subtract
     3. * //multiply
     4. / //divide
     5. % //allow something to not have a remainder
 
 - [x] 5. What do each of the following comparison operators do?
-    1. === //strict comparision, must match in type and value
-    2. !== //is not equal to
-    3. > //greater than
-    4. >= //greater than or equal to
-    5. < //less than
-    6. <= //less than or equal to
+    1.``` === ```//strict comparision, must match in type and value
+    2. ```!==``` //is not equal to
+    3. ```>``` //greater than
+    4. ```>=``` //greater than or equal to
+    5. ```<``` //less than
+    6. ```<=``` //less than or equal to
 
 
 - [x] 6. How do you use the following conditionals?
@@ -106,7 +114,7 @@ Testing
 
 
 - [ ] 9. What is an object?
-* Use objects when you want elements names to be strings
+> Definition: Use objects when you want elements names to be strings
     - [ ] 1. How do you put values into objects?
     - [ ] 2. How do you get values out from objects?
     - [ ] 3. How do you remove a property from an object?
@@ -122,19 +130,19 @@ Testing
     - [ ] 3. How do you pass arguments into a function?
     - [ ] 4. What does the return keyword do in a function?
 
+---
+# Phase 2
+---
 
-
-Phase 2
 - [ ] 1. What are scopes and closures
 - [ ] 2. What is asynchronous JavaScript
 - [ ] 3. How to write asynchronous JavaScript with callbacks.
-
-- [ ] 1. How to select elements
-- [ ] 2. How to add or remove classes
-- [ ] 3. How to add or remove attributes
-- [ ] 4. How to add or remove elements
-- [ ] 5. How to use event listeners to add interactivity
-- [ ] 6. What events are there and how to use them
+- [ ] 4. How to select elements
+- [ ] 5. How to add or remove classes
+- [ ] 6. How to add or remove attributes
+- [ ] 7. How to add or remove elements
+- [ ] 8. How to use event listeners to add interactivity
+- [ ] 9. What events are there and how to use them
 
 Testing
 - [ ]1. What is the JavaScript scope?
@@ -193,7 +201,7 @@ Testing
     - [ ] 8. How do you get the value of a event target?
 
 
-Phase 3
+# Phase 3
     - [ ] 1. Object-oriented Programming (OOP)
         - [ ] 1. this in JavaScript
             * this keyword by default refers to the global scope or the window object
