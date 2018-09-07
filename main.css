@@ -1,0 +1,22 @@
+body {
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.loading-page {
+    background-color: pink; 
+    width: 100vw;
+    height: 100vh;
+}
+
+.counter h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    font-size: 300px;
+    font-weight: bold;
+    margin: -10px;
+}
