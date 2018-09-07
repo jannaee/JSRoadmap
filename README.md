@@ -1,6 +1,8 @@
-# Phase 1
+#JS ROADMAP Outline was created by Zell Liew. I created an answer set below to test my JavaScript knowledge. 
+
+## Phase 1
 ---
-### Objectives to learn
+### Phase one objectives to master
 
 #### 1. Learn how to declare variables.
 Variables are declared using the keywords var, let, const. They can have a value set to them or not.
@@ -36,7 +38,7 @@ Variables are declared using the keywords var, let, const. They can have a value
 #### 6. Learn to use the for loop.
     - [ ] *
 
-## Testing
+## Phase one testing
 
 - [ ] 1. What are the five primitive values in JavaScript? 
     * Primitives are values with no properties
@@ -100,7 +102,7 @@ Variables are declared using the keywords var, let, const. They can have a value
             cars[0] = 'bmw'
             console.log(cars) //bmw
     ~~~
-    
+
 
     > can use push method to put items into array 
     ~~~
@@ -144,9 +146,9 @@ Variables are declared using the keywords var, let, const. They can have a value
     - [ ] 3. How do you pass arguments into a function?
     - [ ] 4. What does the return keyword do in a function?
 
----
 # Phase 2
 ---
+### Phase two objective to master
 
 - [ ] 1. What are scopes and closures
 - [ ] 2. What is asynchronous JavaScript
@@ -158,7 +160,7 @@ Variables are declared using the keywords var, let, const. They can have a value
 - [ ] 8. How to use event listeners to add interactivity
 - [ ] 9. What events are there and how to use them
 
-Testing
+### Phase two testing
 - [ ]1. What is the JavaScript scope?
     - [ ] 1. Why should you keep global variables to a minimum?
     - [ ] 2. What is a closure?
