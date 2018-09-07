@@ -38,7 +38,7 @@ Variables are declared using the keywords var, let, const. They can have a value
 
 ## Testing
 
-#### - [ ] 1. What are the five primitive values in JavaScript? 
+- [ ] 1. What are the five primitive values in JavaScript? 
     * Primitives are values with no properties
     * Null, Strings, Number, Undefined, Booleans, Symbol (ES6)
 
@@ -61,7 +61,8 @@ Variables are declared using the keywords var, let, const. They can have a value
     5. ```%``` //allow something to not have a remainder
 
 - [x] 5. What do each of the following comparison operators do?
-    1.``` === ```//strict comparision, must match in type and value
+
+    1. ``` === ```//strict comparision, must match in type and value
     2. ```!==``` //is not equal to
     3. ```>``` //greater than
     4. ```>=``` //greater than or equal to
@@ -70,20 +71,23 @@ Variables are declared using the keywords var, let, const. They can have a value
 
 
 - [x] 6. How do you use the following conditionals?
-    1. if // if (expression to evaluate to true){ code to execute if the condition is true}
+  >  1. if // if (expression to evaluate to true){ code to execute if the condition is true}
 
-    2. if else // if (condition to evaluate to true){block to return if it is}else{if condition did not turn to be true this block is exectued}
+   > 2. if else // if (condition to evaluate to true){block to return if it is}else{if condition did not turn to be true this block is exectued}
     
-    3. else // can be used for specifying an additional condition if the first is false 
+   > 3. else // can be used for specifying an additional condition if the first is false 
 
 
 - [ ] 7. How do you use a for loop?
+~~~
     for (let i = 0; i<4; i++){
         block of data to be looped through
     }
+~~~~
 
 - [ ] 8. What is an array?
-- [ ] * Use arrays when you want the element names to be numbers
+
+> * Use arrays when you want the element names to be numbers
     - [ ]1. How do you put values into arrays?
         - [ ] * set it a variable to it and add data in as strings or numbers surronded by brackets
         - [ ] * set an array and an index to be replaced with a new value 
