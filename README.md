@@ -38,27 +38,27 @@ Variables are declared using the keywords var, let, const. They can have a value
 
 ## Testing
 
-- [ ] 1. What are the five primitive values in JavaScript? 
-    - [ ] * Primitives are values with no properties
-    - [ ] * Null, Strings, Number, Undefined, Booleans, Symbol (ES6)
+#### - [ ] 1. What are the five primitive values in JavaScript? 
+    * Primitives are values with no properties
+    * Null, Strings, Number, Undefined, Booleans, Symbol (ES6)
 
 - [ ] 2. How do you declare and assign variables in JavaScript?
-    - [ ] * Declare variables using a keyword var let or const paired with a name
-    - [ ] * Assign or initialize by setting that name with a value using an '=' sign on the RHS with any of the 6 primitive values
+    * Declare variables using a keyword var let or const paired with a name
+    * Assign or initialize by setting that name with a value using an '=' sign on the RHS with any of the 6 primitive values
     
 - [ ] 3. What's the difference between const, let and var?
-    - [ ] * var is the original keyword to create variables, but has become outdated since release of ES6, but difficult to manage hoisting during scoping
-    - [ ] * let introcudes block scope, where the variable is only accessible within the block of code it was introduced into 
-    - [ ] * const it's like let, but you cannot reassign it a value
+    * var is the original keyword to create variables, but has become outdated since release of ES6, but difficult to manage hoisting during scoping
+    * let introcudes block scope, where the variable is only accessible within the block of code it was introduced into 
+    * const it's like let, but you cannot reassign it a value
         * use to minimize mutable state
         * 
 
 - [x] 4. What do each of the following operators do?
-    1. + add
-    2. - //subtract
-    3. * //multiply
-    4. / //divide
-    5. % //allow something to not have a remainder
+    1. ```+``` //add
+    2. ```-``` //subtract
+    3. ```*``` //multiply
+    4. ```/``` //divide
+    5. ```%``` //allow something to not have a remainder
 
 - [x] 5. What do each of the following comparison operators do?
     1.``` === ```//strict comparision, must match in type and value
