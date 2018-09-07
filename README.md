@@ -1,4 +1,4 @@
-#JS ROADMAP Outline was created by Zell Liew. I created an answer set below to test my JavaScript knowledge. 
+#JS ROADMAP Outline was created by [Zell Liew] (https://zellwk.com/). I created an answer set below to test my JavaScript knowledge. 
 
 ## Phase 1
 ---
