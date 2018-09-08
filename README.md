@@ -25,20 +25,25 @@ Variables are declared using the keywords var, let, const. They can have a value
 >    Arrays - an object used to store multiple values, and uses numbers to access it's elements
 ~~~
 Example:
-    How to create an array - var array_cars = ['saab', 'ford', ...]
-    How to access an array - var name = cars [0] (using indexing)
+    Create an array - var array_cars = ['saab', 'ford', ...]
+    Access an array - var name = cars [0] (using indexing)
 
 ~~~
-    Objects - is a construct that stores multiple values in a key/value pairing. it uses names to access it's members
+>    Object - is a construct that stores multiple values in a key/value pairing. it uses names to access it's members
 
-#### 4. Learn to use if and else statements.
+> Functions are a logical way to store a block of code
+#### 4. How to use if and else statements?
     - [ ] *
 
-#### 5. Learn how to compare variables.
+#### 5. How to compare variables?
     - [ ] *
 
-#### 6. Learn to use the for loop.
-    - [ ] *
+#### 6. How to use the for loop?
+> Loops are handy for when you want to execute the same block of code over and over but get different values each time. An example:
+
+    ~~~
+    
+    ~~~
 
 ### Phase one testing
 
@@ -123,11 +128,14 @@ Example:
     > The best way is to use a for loop:
     ~~~
         Example: 
-            var fruits, fruitsLength, i;
-            fruits=['apple', 'starfruit', 'orange'];
+            let fruits, 
+            fruitsLength, 
+            i;
+
+            fruits = ['apple', 'starfruit', 'orange'];
             fruitsLength = fruits.length;
-            for (i=0; i<fruitsLength; i++){
-                console.log( fruits[i])
+            for (i=0; i < fruitsLength; i++) {
+                console.log( fruits[i] )
             }
     ~~~
 
@@ -136,8 +144,24 @@ Example:
 
 * 1. How do you put values into objects?
 ~~~
+One way is to create the object literally
+    let car = {
+        type: 'scion', 
+        color: 'teal', 
+        model:"200"
+    }
+
+Add new properties 
+    car.year = "1998"; //best to use with you know the name of the property
+    car[age] = "30" //best to use when you know the name of the property is dynamic
+    console.log(car); 
+    //
 ~~~
+
 * 2. How do you get values out from objects?
+~~~
+    console.log(car.type); //'scion'
+~~~
 * 3. How do you remove a property from an object?
 * 4. How do you loop through every value of an object?
 * 5. What is a method on an object?
