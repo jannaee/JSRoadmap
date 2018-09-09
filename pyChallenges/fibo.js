@@ -3,19 +3,22 @@
 
 const arr = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
 //reduce array to even numbers
-const evenNums = arr.filter(function (num){return ((num %2)===0)})
-let newVal = evenNums.reduce(function (accumulator, currentValue) {
+const evenNums = arr.filter(function (num){return ((num %2)===0)}) //filters for all even numbers
+let greaterThan34 = evenNums.reduce(function (accumulator, currentValue) {
     return accumulator + currentValue
 });
 
-console.log(newVal[9]);
-//building control of data
 
 function solution (max){
-    if( max >= arr[9]){
-        alert(`yes`)
+    if( max >= arr[7]){
+        alert(`Your answer is: ${greaterThan34} because your input of: ${max} is greater than 34`);
+
+    } else if (max > arr[4]) {
+        alert(`Greater than 8`)
+    } else if (max > arr[2] ){
+        alert(`Greater than 2`)
     } else {
-        alert(`no`);
+        alert(`i'm final result`)
     }
 }
-solution(84);
+solution(200);
