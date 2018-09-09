@@ -51,6 +51,7 @@ Example:
     * Primitives are values with no properties
     * Null, Strings, Number, Undefined, Booleans, Symbol (ES6)
 
+
 - [ ] 2. How do you declare and assign variables in JavaScript?
     * Declare variables using a keyword var let or const paired with a name
     * Assign or initialize by setting that name with a value using an '=' sign on the RHS with any of the 6 primitive values
