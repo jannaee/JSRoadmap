@@ -164,6 +164,22 @@ Add new properties
 ~~~
 * 3. How do you remove a property from an object?
 * 4. How do you loop through every value of an object?
+    > Using ES6 a for...of loop will work
+    ~~~
+    Example:
+        for (const key of Object.keys(obj)) {
+            console.log(key, obj[key])
+        }
+    ~~~
+    > Using ES5 a Object.keys() 
+    ~~~
+    Example:
+        var obj = {first: "Jannaee", last:"Sick"};
+
+        Object.keys(obj).forEach(function(key){
+            console.log(key, obj[key]);
+        });
+    ~~~
 * 5. What is a method on an object?
 * 6. How do you de􀀍ne methods?
 * 7. How do you call/invoke a method?
