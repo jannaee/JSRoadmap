@@ -179,7 +179,10 @@ Add new properties
         });
     ~~~
 * 5. What is a method on an object?
-* 6. How do you de􀀍ne methods?
+> 
+* 6. How do you define methods?
+> You add it as a property inside of an object as one of it's properties.
+
 * 7. How do you call/invoke a method?
 
 
