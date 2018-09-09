@@ -51,7 +51,6 @@ Example:
     * Primitives are values with no properties
     * Null, Strings, Number, Undefined, Booleans, Symbol (ES6)
 
-
 - [ ] 2. How do you declare and assign variables in JavaScript?
     * Declare variables using a keyword var let or const paired with a name
     * Assign or initialize by setting that name with a value using an '=' sign on the RHS with any of the 6 primitive values
@@ -61,8 +60,6 @@ Example:
     * let introcudes block scope, where the variable is only accessible within the block of code it was introduced into 
     * const it's like let, but you cannot reassign it a value
         * use to minimize mutable state
-        * 
-
 - [x] 4. What do each of the following operators do?
     1. ```+``` //add
     2. ```-``` //subtract
@@ -187,10 +184,10 @@ Add new properties
 
 
 - [ ] 10. What is a function?
-    - [ ] 1. How do you define functions?
-    - [ ] 2. How do you call/invoke/execute functions?
-    - [ ] 3. How do you pass arguments into a function?
-    - [ ] 4. What does the return keyword do in a function?
+    1. How do you define functions?
+    2. How do you call/invoke/execute functions?
+    3. How do you pass arguments into a function?
+    4. What does the return keyword do in a function?
 
 # Phase 2
 
