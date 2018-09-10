@@ -210,8 +210,18 @@ Add new properties
 - [ ]1. What is the JavaScript scope?
     - [ ] 1. Why should you keep global variables to a minimum?
     - [ ] 2. What is a closure?
+            Functions are not just functions, but closures too. The function body has acces to variables defined outside the function's scope.
+    ~~~
+    Example:
+        var me = 'Jannaee Sick';
+        function greetMe(){
+            console.log(`Hello `+ me);
+        }
+        greetMe()
+    ~~~
     - [ ] 3. Why do you use closures?
-
+            Not only to access variables outside of the function, but also 
+            1 use case can be applied to an ajax request. defining a variable early in scope but make i available to a function that may run later (in this case after a sucess)
 - [ ] 2. What is a callbacks
     - [ ] 1. How do you use a callback?
     - [ ] 2. How do you write a callback?
@@ -275,7 +285,8 @@ Add new properties
         
         
         - [ ] 3. The Module and Factory patterns for creating objects
-            *
+            * Factory is a method of creating and returning objects. Where the advantages is it allow you to have private objects that maintain state. It's less convoluded than class.
+
         
     - [ ] 2. Functional Programming ideas (FP)
         - [ ] 1. Reduce side effects
@@ -302,6 +313,17 @@ Testing
     - [ ] 4. What is the module pattern? When do you use it?
     
     - [ ] 5. What is the factory pattern? When do you use it?
+    ~~~
+    Example:
+    const dog = ()=>{
+        const sound = 'woof'
+        return {
+            talk: ()=> console.log(sound)
+        }
+    }
+    const sniffles = dog()
+    sniffles.talk() //Outputs: "woof"
+    ~~~
 
 - [ ] 2. FP
     - [ ] 1. What is immutability?
