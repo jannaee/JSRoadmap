@@ -4,10 +4,6 @@
 
 ### Phase one objectives to master
 
-#### 1. How do you declare variables?
-Variables are declared using the keywords var, let, const. They can have a value set to them or not.
-
-
 #### 2. What are Strings, Numbers, Booleans, Null and Undefined?
     Strings - used to store a series of characters can me any characted inside a single or double quote
 
@@ -197,13 +193,22 @@ Add new properties
 ### Phase two objective to master
 
 - [ ] 1. What are scopes and closures
+    When a variable set on the outer functions scope is accessible to the scope of an inner function
+
 - [ ] 2. What is asynchronous JavaScript
+
 - [ ] 3. How to write asynchronous JavaScript with callbacks.
+
 - [ ] 4. How to select elements
+
 - [ ] 5. How to add or remove classes
+
 - [ ] 6. How to add or remove attributes
+
 - [ ] 7. How to add or remove elements
+
 - [ ] 8. How to use event listeners to add interactivity
+
 - [ ] 9. What events are there and how to use them
 
 ### Phase two testing
