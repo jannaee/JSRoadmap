@@ -13,5 +13,5 @@
     return true;
  }
 stringChecker('car');
-stringChecker ('smartphone');
-stringChecker ('moon');
+//stringChecker ('smartphone');
+//stringChecker ('moon');
