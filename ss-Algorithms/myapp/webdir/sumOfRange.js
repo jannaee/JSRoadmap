@@ -3,25 +3,18 @@
 //input will be an array
 //output will be the sum of all numbers
 
-function sumNum(testCase){
-    if (typeof testCase === 'string'){
-        console.log(`is a string`);
-        return
-    } else if (Array.isArray(testCase) === true ) {
-        console.log(`is array`)
-        let strConversion = testCase.join();
-        alert(strConversion);
-        console.log(largestNum);
+function sumOfRange(arr){
+    let max = Math.max(...arr);  //8
+    let min = Math.min(...arr); //4
+    let total = 0;
 
-        return
-    } else {
-        console.log(`neither a string or array`)
-        return
+    for (var i = min;  i <= max; i++){
+        //console.log(i)
+        total += i;
+        console.log(total)//once total is larger than the total maxs step out of the code and return the total 
     }
-
-}
-
-
-sumNum([4,7,5,2,8,3])
-// sumNum(['stest'])
-// sumNum(true)
+    return total;
+  }
+  
+  
+  sumOfRange([1,4]);
