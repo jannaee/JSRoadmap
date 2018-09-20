@@ -56,7 +56,6 @@ let theMarket = [
 function itemLookup(itemInQuestion){
     let returnedPrice = 0;
     for (let i=0; i < theMarket.length; i++){
-        //price += theMarket[i].amount;
         if (theMarket[i].item === itemInQuestion) 
         return returnedPrice = theMarket[i].price
 
@@ -66,3 +65,4 @@ function itemLookup(itemInQuestion){
 
 
 itemLookup('rice');
+
