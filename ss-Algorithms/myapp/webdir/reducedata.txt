@@ -1,8 +1,0 @@
-jannaee sick    waffle  iron    80  2
-jannaee sick  bacon   gold    3   1982
-jannaee sick   chicken quarters    iron    2   9
-jannaee sick   grass   silver  500 0
-miles sick    waffle  iron    80  2
-miles sick  bacon   gold    4   19
-miles sick   chicken quarters    iron    2   9
-miles sick   grass   silver  50 0
